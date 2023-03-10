@@ -1,25 +1,33 @@
 {
-  "name": "curso-de-npm-gestion-de-paquetes-y-dependencias-en-javascript",
-  "version": "1.0.0",
-  "description": "Curso de Platzi",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GaleedGutierrez/Curso-de-NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript.git"
-  },
-  "keywords": [
-    "typescript",
-    "javascript",
-    "node",
-    "npm"
-  ],
-  "author": "Galeed Gutierrez <galeedeveloper@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GaleedGutierrez/Curso-de-NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript/issues"
-  },
-  "homepage": "https://github.com/GaleedGutierrez/Curso-de-NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript#readme"
+	"name": "curso-de-npm-gestion-de-paquetes-y-dependencias-en-javascript",
+	"version": "1.0.0",
+	"description": "Curso de Platzi",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GaleedGutierrez/Curso-de-NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript.git"
+	},
+	"keywords": [
+		"typescript",
+		"javascript",
+		"node",
+		"npm"
+	],
+	"author": "Galeed Gutierrez <galeedeveloper@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/GaleedGutierrez/Curso-de-NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript/issues"
+	},
+	"homepage": "https://github.com/GaleedGutierrez/Curso-de-NPM-Gestion-de-Paquetes-y-Dependencias-en-JavaScript#readme",
+	"dependencies": {
+		"moment": "^2.29.4",
+		"react": "^18.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.35.0",
+		"typescript": "^4.9.5"
+	}
 }
